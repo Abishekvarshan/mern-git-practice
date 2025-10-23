@@ -14,5 +14,10 @@ app.get("/", (req, res) => {
 app.get("/test", (req, res) => {
   res.send("Test route working!");
 });
+// Friend's route
+app.get("/friend", (req, res) => {
+  res.send("Hello from Friend!");
+});
+
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
