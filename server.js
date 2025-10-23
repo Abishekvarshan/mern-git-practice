@@ -18,7 +18,7 @@ app.get("/test", (req, res) => {
 // Varshan's route
 app.get("/varshan", (req, res) => {
   res.send("Hello from Varshan!");
-
+})
 // Friend's route
 app.get("/friend", (req, res) => {
   res.send("Hello from Friend!");
