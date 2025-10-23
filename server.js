@@ -14,9 +14,15 @@ app.get("/", (req, res) => {
 app.get("/test", (req, res) => {
   res.send("Test route working!");
 });
+ 
 // Varshan's route
 app.get("/varshan", (req, res) => {
   res.send("Hello from Varshan!");
+
+// Friend's route
+app.get("/friend", (req, res) => {
+  res.send("Hello from Friend!");
+
 });
 
 
